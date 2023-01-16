@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Montserrat',sans-serif;
+}
+#secondDiv{
+width: 100%;
+}
+#mainTable{
+    width: 100%;
+    /* line-height: 5px; */
+    background-color:white;
+    box-shadow:5px 5px 10px 5px #ccc;
+    /* border:2px solid black; */
+    
+    
+}
+#mainTable  tr td{
+    text-align:center;
+    box-shadow: 2px 4px 3 px 3px #ccc;
+    border-collapse: collapse;
+    width:6%;
+}
+
+.mainTD:hover{
+    transform: scale(1.1);
+    
+}
+.mainTD a{
+    color:black;
+    /* font-size: 20px; */
+    font-weight:600;
+    text-decoration: none;
+}
+#logo{
+    padding-top: 4px;
+    padding-left: 20px;
+}
+#secondTable{
+    width: 100% !important;
+    border-collapse: collapse;
+}
+#secondTable tr td{
+    width: 10% !important;
+    /* border: 2px solid black; */
+}
+#secondTable img{
+    width: 100%;
+}
+.tdHeight{
+    height: 50px;
+    font-weight:bold;
+}
+#mainFormDiv{
+    height:calc(100vh - 60px);
+    box-shadow: 2px 3px 4px 4 px #ccc;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+form{
+    box-shadow:10px 10px 25px 8px #ccc;
+    padding:10px
+}
+#contactFormDiv{
+    height: calc(80vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#footerDiv{
+    width: 100%;
+}
+#footerTable{
+    justify-content: space-around;
+    background-color:#000;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #000;
+}
+#footerTable tr td{
+    width:16.6%;
+    padding: 10px;
+    color:white;
+}
+#secondTable tr td img:hover{
+    transform: scale(1.2);
+    box-shadow:10px 10px 25px 8px #ccc;
+    transition: 2s;
+}
+.mainTD{
+    font-family:'Poppins', sans-serif;
+}
+#footerMainHeadings{
+    font-size: larger;
+}
+#footerTable tr td p{
+    font-size: small;
+}
+#mainDiv{
+    position: sticky;
+    top: 0;
+}
